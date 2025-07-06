@@ -1,0 +1,30 @@
+# ===========================================
+# .gitignore for Statistics CA2 Assignment
+# ===========================================
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+
+# VS Code project settings (if you use it)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Log files
+*.log
+
+# Ignore large datasets if you want to keep them private (optional)
+# Uncomment this if you want to skip CSV files
+# *.csv
